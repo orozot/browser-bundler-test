@@ -1,0 +1,22 @@
+.contentHeader {
+  height: 60px;
+  margin: 0 200px;
+  display: flex;
+
+  .logo {
+    font-size: 50px;
+    font-weight: 800;
+  }
+
+  .navBar {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 1;
+    padding: 0 20px;
+
+    .navItem {
+      margin: 0 10px;
+    }
+  }
+}
